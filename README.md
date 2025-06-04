@@ -23,8 +23,8 @@
 
 1.  Clone the repository:
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
+    git clone git@github.com:prs-eth/FLAIR.git
+    cd FLAIR
     ```
 
 2.  Create a virtual environment (recommended):
