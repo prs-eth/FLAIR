@@ -1,0 +1,7 @@
+{
+    "prompt": "a girl with bright blue eyes ",
+    "seed_on_slider": 4257757956,
+    "use_random_seed_checkbox": true,
+    "num_steps": 50,
+    "task_type": "Inpainting"
+}

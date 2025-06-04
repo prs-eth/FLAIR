@@ -1,0 +1,7 @@
+{
+    "prompt": "a high quality image of a face.",
+    "seed_on_slider": 3211750901,
+    "use_random_seed_checkbox": false,
+    "num_steps": 50,
+    "task_type": "Inpainting"
+}

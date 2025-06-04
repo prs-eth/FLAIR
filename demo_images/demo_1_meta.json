@@ -1,0 +1,7 @@
+{
+    "prompt": "a house",
+    "seed_on_slider": 434714511,
+    "use_random_seed_checkbox": false,
+    "num_steps": 50,
+    "task_type": "Inpainting"
+}

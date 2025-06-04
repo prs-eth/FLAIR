@@ -1,0 +1,45 @@
+# === Model & Data Settings ===
+model: "SD3"
+resolution: 512
+lambda_func: v
+optimized_reg_weight: ./LCFM/SD3_loss_v_MSE_DIV2k_neg_prompt.npy
+regularizer_weight: 0.5
+likelihood_weight_mode: reg_weight
+likelihood_steps: 15
+early_stopping: 1.e-4
+epochs: 1
+guidance: 2
+quantize: False
+use_tiny_ae: True
+negative_prompt: ""
+reg-shift: 0.0  
+
+# === Optimization Settings ===
+optimizer: 
+  name: SGD
+  kwargs:
+    lr: 1
+optimizer_dataterm: 
+  name: SGD
+  kwargs:
+    lr: 0.1
+
+# === Sampling & Misc ===
+t_sampling: descending
+n_steps: 50
+inv_alpha: 1-t
+ts_min: 0.18
+projection: False
+seed: 42
+
+# === Experiment-Specific Settings ===
+prompt: A high quality photo of a girl with a pirate eye-patch.
+degradation:
+  name: Inpainting
+  kwargs:
+    mask: [128, 640, 384, 640]
+    H: 512
+    W: 512
+    noise_std: 0.0
+likelihood_weight: 1
+

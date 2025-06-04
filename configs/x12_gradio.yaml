@@ -1,0 +1,48 @@
+# OmegaConf base config for neurips experiments
+# Place common settings here. Each experiment config will override as needed.
+
+# === Model & Data Settings ===
+model: "SD3"
+resolution: 768
+lambda_func: v
+optimized_reg_weight: ./LCFM/SD3_loss_v_MSE_DIV2k_neg_prompt.npy
+regularizer_weight: 0.5
+likelihood_weight_mode: reg_weight
+likelihood_steps: 15
+early_stopping: 1.e-4
+epochs: 1
+guidance: 2
+quantize: False
+use_tiny_ae: True
+negative_prompt: ""
+reg-shift: 0.0  
+
+# === Optimization Settings ===
+optimizer: 
+  name: SGD
+  kwargs:
+    lr: 1
+optimizer_dataterm: 
+  name: SGD
+  kwargs:
+    lr: 12
+
+# === Sampling & Misc ===
+t_sampling: descending
+n_steps: 50
+inv_alpha: 1-t
+quantize: False
+ts_min: 0.18
+projection: False
+seed: 3
+
+# === Experiment-Specific Settings ===
+prompt: a high quality photo of
+# Super-resolution x12 for FFHQ
+degradation:
+  name: SuperRes
+  kwargs:
+    scale: 12
+    noise_std: 0.0
+    img_size: 768
+likelihood_weight: 1
