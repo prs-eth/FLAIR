@@ -61,10 +61,13 @@ python inference_scripts/run_image_inv.py --config configs/x12.yaml --target_fil
 If you find this work useful in your research, please cite our paper:
 
 ```bibtex
-@article{er2025solving,
-  title={Solving Inverse Problems with FLAIR},
-  author={Erbach, Julius and Narnhofer, Dominik and Dombos, Andreas and Lenssen, Jan Eric and Schiele, Bernt and Schindler, Konrad},
-  journal={arXiv},
-  year={2025}
+@article{erbach2025solvinginverseproblemsflair,
+      title={Solving Inverse Problems with FLAIR}, 
+      author={Julius Erbach and Dominik Narnhofer and Andreas Dombos and Bernt Schiele and Jan Eric Lenssen and Konrad Schindler},
+      year={2025},
+      eprint={2506.02680},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.02680}, 
 }
 ```
