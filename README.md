@@ -9,7 +9,7 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2506.02680)
 [![Page](https://img.shields.io/badge/Project-Page-green)](https://inverseFLAIR.github.io)
-[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)]([link](https://huggingface.co/spaces/prs-eth/FLAIR))
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)](https://huggingface.co/spaces/prs-eth/FLAIR)
 </div>
 
 <p align="center">
