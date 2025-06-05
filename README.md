@@ -7,7 +7,7 @@
 <sup>1</sup> Photogrammetry and Remote Sensing, ETH Zurich  
 <sup>2</sup> Max Planck Institute for Informatics, Saarbrücken  
 
-[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](link)
+[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2506.02680)
 [![Page](https://img.shields.io/badge/Project-Page-green)](inverseFLAIR.github.io)
 [![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)](link)
 </div>
