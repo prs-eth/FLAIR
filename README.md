@@ -2,7 +2,7 @@
 
 # FLAIR: Flow-Based Latent Alignment for Image Restoration
 
-**Julius Erbach<sup>1</sup>, Dominik Narnhofer<sup>1</sup>, Andreas Dombos<sup>1</sup>, Jan Eric Lenssen<sup>1</sup>, Bernt Schiele<sup>2</sup>, Konrad Schindler<sup>1</sup>**  
+**Julius Erbach<sup>1,2</sup>, Dominik Narnhofer<sup>1</sup>, Andreas Dombos<sup>1</sup>, Jan Eric Lenssen<sup>2</sup>, Bernt Schiele<sup>2</sup>, Konrad Schindler<sup>1</sup>**  
 <br>
 <sup>1</sup> Photogrammetry and Remote Sensing, ETH Zurich  
 <sup>2</sup> Max Planck Institute for Informatics, Saarbrücken  
